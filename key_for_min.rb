@@ -10,7 +10,7 @@ def key_for_min_value(name_hash)
     if i == 0
       previous = value 
       smallest = key
-      i++
+      i += 1 
     else 
       if previous < value 
         previous = value
