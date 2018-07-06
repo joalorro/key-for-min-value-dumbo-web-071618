@@ -6,6 +6,7 @@ def key_for_min_value(name_hash)
     
   smallest = ""
   i = 0 
+  previous = 0 
   name_hash.each do |name,val|
     if i == 0
       previous = val 
