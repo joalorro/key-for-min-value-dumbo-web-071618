@@ -13,8 +13,8 @@ def key_for_min_value(name_hash)
       smallest = name
       i += 1 
     else 
-      if previous < val
-        previous = val
+      if val < previous
+        val = previous
         smallest = name 
       end
     end
